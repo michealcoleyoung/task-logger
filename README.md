@@ -2,8 +2,8 @@ This script is a time tracker that allows the user to record what they are worki
 
 The script uses the following third-party modules:
 
-    pyperclip for copying data to the clipboard
-    datetime for calculating the total time worked
+- pyperclip for copying data to the clipboard
+- datetime for calculating the total time worked
 
 To use the script, the user should open the file in a Python environment and run the script. They will be prompted to enter the task they are working on. To stop the timer and record the time worked, they need to press the 'Enter' key. To export the data, the user can enter 'export data' as the task. The data will be formatted and printed to the console, and also copied to the clipboard for easy pasting.
 
