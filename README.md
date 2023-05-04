@@ -1,24 +1,10 @@
-# Task Logger
+This script is a time tracker that allows the user to record what they are working on and the amount of time they spend on each task. The user is prompted to input the task they are working on, and the script records the start time and date. Once the user completes the task, they can stop the timer and the script records the end time and calculates the total time worked. The user can then export the data in a formatted string or copy it to the clipboard.
 
-This is a command line application that helps users track the tasks they are working on, record the time they started and ended each task, and export the data to the clipboard.
-Installation
+The script uses the following third-party modules:
 
-To use this application, you will need to install Python and create a virtual environment. Then, you will need to install the necessary dependencies using pip.
+    pyperclip for copying data to the clipboard
+    datetime for calculating the total time worked
 
-    Install Python 3 from the official website.
-    Open a terminal or command prompt and navigate to the directory where you want to store the application.
-    Create a virtual environment by entering the following command: python -m venv venv. This will create a new directory called venv that contains a fresh installation of Python.
-    Activate the virtual environment by entering the following command:
+To use the script, the user should open the file in a Python environment and run the script. They will be prompted to enter the task they are working on. To stop the timer and record the time worked, they need to press the 'Enter' key. To export the data, the user can enter 'export data' as the task. The data will be formatted and printed to the console, and also copied to the clipboard for easy pasting.
 
-    On Windows: venv\Scripts\activate
-    On macOS or Linux: source venv/bin/activate
-
-    Install the dependencies by entering the following command: pip install pyperclip.
-
-Usage
-
-To use the application, open a terminal or command prompt and navigate to the directory where the application is stored. Then, activate the virtual environment by entering the command listed in the installation instructions.
-
-To start tracking a new task, enter a brief description of the task when prompted. The application will record the start time of the task and wait for you to finish. When you are finished, press Enter to stop the timer and record the time worked on the task.
-
-You can track as many tasks as you need, and the application will store all of the data in memory. To export the data to the clipboard, enter the command export data when prompted for a task description. The application will format the data and copy it to your clipboard, ready for pasting into another application.
+Note: The script assumes that the local time zone is in Central Standard Time (CST), and may need to be modified if used in a different time zone.
