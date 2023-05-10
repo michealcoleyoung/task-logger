@@ -1,3 +1,5 @@
+# Task Logger
+
 This script is a time tracker that allows the user to record what they are working on and the amount of time they spend on each task. The user is prompted to input the task they are working on, and the script records the start time and date. Once the user completes the task, they can stop the timer and the script records the end time and calculates the total time worked. The user can then export the data in a formatted string or copy it to the clipboard.
 
 The script uses the following third-party modules:
